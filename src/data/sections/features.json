@@ -1,26 +1,26 @@
 [
     {
         "id": 1,
-        "icon": "pe-7s-paint-bucket",
-        "title": "Graphic Design",
-        "content": "Tempore corrupti temporibus fuga earum asperiores fugit laudantium."
+        "icon": "pe-7s-vector",
+        "title": "Product Design",
+        "content": "Our skilled team specializes in creating innovative and user-friendly product designs to meet your unique requirements."
     },
     {
         "id": 2,
         "icon": "pe-7s-phone",
-        "title": "Web & Mobile Design",
-        "content": "Tempore corrupti temporibus fuga earum asperiores fugit."
+        "title": "Web & Mobile Development",
+        "content": "With a focus on cutting-edge technologies, we develop responsive and seamless web and mobile applications tailored to your business needs."
     },
     {
         "id": 3,
-        "icon": "pe-7s-display1",
-        "title": "Social Media Marketing",
-        "content": "Tempore corrupti temporibus fuga earum asperiores fugit."
+        "icon": "pe-7s-link",
+        "title": "Blockchain Development",
+        "content": "Explore the potential of blockchain technology with our experienced developers, ensuring secure and efficient solutions for your projects."
     },
     {
         "id": 4,
-        "icon": "pe-7s-diskette",
-        "title": "Document Legal Policy",
-        "content": "Tempore corrupti temporibus fuga earum asperiores fugit laudantium."
+        "icon": "pe-7s-display1",
+        "title": "AI Model Development & Training",
+        "content": "Harness the power of artificial intelligence as we craft and train advanced models to enhance your systems, providing intelligent solutions for your business challenges."
     }
 ]

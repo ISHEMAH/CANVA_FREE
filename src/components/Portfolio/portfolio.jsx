@@ -2,6 +2,90 @@
 import React from "react";
 import Link from "next/link";
 import initIsotope from "../../common/initIsotope";
+import ProjectCard from "../projectCard/projectCard.js";
+
+const projectsData = [
+  {
+    imageUrl: "https://example.com/creative1.jpg",
+    title: "Artistic Expressions",
+    categories: ["Creative", "Design", "WordPress", "Graphic"],
+  },
+  {
+    imageUrl: "https://example.com/creative2.jpg",
+    title: "Imagination Unleashed",
+    categories: ["Creative", "Design", "WordPress", "Graphic"],
+  },
+  {
+    imageUrl: "https://example.com/creative3.jpg",
+    title: "Innovative Creations",
+    categories: ["Creative", "Design", "WordPress", "Graphic"],
+  },
+  // Web projects
+  {
+    imageUrl: "https://example.com/web1.jpg",
+    title: "Responsive Web Design",
+    categories: ["Web"],
+  },
+  {
+    imageUrl: "https://example.com/web2.jpg",
+    title: "E-Commerce Platform",
+    categories: ["Web"],
+  },
+  {
+    imageUrl: "https://example.com/web3.jpg",
+    title: "User-Friendly Interfaces",
+    categories: ["Web"],
+  },
+  // Mobile projects
+  {
+    imageUrl: "https://example.com/mobile1.jpg",
+    title: "Mobile App Prototype",
+    categories: ["Mobile"],
+  },
+  {
+    imageUrl: "https://example.com/mobile2.jpg",
+    title: "Android Development",
+    categories: ["Mobile"],
+  },
+  {
+    imageUrl: "https://example.com/mobile3.jpg",
+    title: "iOS App Design",
+    categories: ["Mobile"],
+  },
+  // Blockchain projects
+  {
+    imageUrl: "https://example.com/blockchain1.jpg",
+    title: "Decentralized Solutions",
+    categories: ["Blockchain"],
+  },
+  {
+    imageUrl: "https://example.com/blockchain2.jpg",
+    title: "Smart Contracts Implementation",
+    categories: ["Blockchain"],
+  },
+  {
+    imageUrl: "https://example.com/blockchain3.jpg",
+    title: "Crypto Wallet Development",
+    categories: ["Blockchain"],
+  },
+  // AI projects
+  {
+    imageUrl: "https://example.com/ai1.jpg",
+    title: "Machine Learning Algorithms",
+    categories: ["AI"],
+  },
+  {
+    imageUrl: "https://example.com/ai2.jpg",
+    title: "Natural Language Processing",
+    categories: ["AI"],
+  },
+  {
+    imageUrl: "https://example.com/ai3.jpg",
+    title: "Computer Vision Applications",
+    categories: ["AI"],
+  },
+  // Add more project data as needed
+];
 
 const Portfolio = ({ grid, filterPosition }) => {
   React.useEffect(() => {
@@ -40,169 +124,20 @@ const Portfolio = ({ grid, filterPosition }) => {
               <span data-filter="*" className="active">
                 All
               </span>
-              <span data-filter=".brand">Branding</span>
-              <span data-filter=".web">Mobile App</span>
-              <span data-filter=".graphic">Creative</span>
+              <span data-filter=".Web">Web</span>
+              <span data-filter=".mobile">Mobile App</span>
+              <span data-filter=".blockchain">Blockchain</span>
+              <span data-filter=".ai">AI</span>
             </div>
           </div>
 
           <div className="gallery full-width">
-            <div
-              className={`${
-                grid === 3
-                  ? "col-lg-4 col-md-6"
-                  : grid === 2
-                  ? "col-md-6 lg-mr"
-                  : "col-12"
-              } items graphic wow fadeInUp`}
-              data-wow-delay=".4s"
-            >
-              <div className="item-img">
-                <Link href={`/project-details2/project-details2-dark`}>
-                  <a className="imago wow">
-                    <img src="/img/portfolio/portfolio/1/1.jpg" alt="image" />
-                    <div className="item-img-overlay"></div>
-                  </a>
-                </Link>
-              </div>
-              <div className="cont">
-                <h6>Creativity Demand</h6>
-                <span>
-                  <Link href="/works/works-dark">Design</Link>, <Link href="/works/works-dark">WordPress</Link>
-                </span>
-              </div>
-            </div>
-
-            <div
-              className={`${
-                grid === 3
-                  ? "col-lg-4 col-md-6"
-                  : grid === 2
-                  ? "col-md-6"
-                  : "col-12"
-              } items web wow fadeInUp`}
-              data-wow-delay=".4s"
-            >
-              <div className="item-img">
-                <Link href={`/project-details2/project-details2-dark`}>
-                  <a className="imago wow">
-                    <img src="/img/portfolio/portfolio/1/2.jpg" alt="image" />
-                    <div className="item-img-overlay"></div>
-                  </a>
-                </Link>
-              </div>
-              <div className="cont">
-                <h6>Through The Breaking</h6>
-                <span>
-                  <a href="#0">Design</a>, <a href="#0">WordPress</a>
-                </span>
-              </div>
-            </div>
-
-            <div
-              className={`${
-                grid === 3
-                  ? "col-lg-4 col-md-6"
-                  : grid === 2
-                  ? "col-md-6"
-                  : "col-12"
-              } items brand wow fadeInUp`}
-              data-wow-delay=".4s"
-            >
-              <div className="item-img">
-                <Link href={`/project-details2/project-details2-dark`}>
-                  <a className="imago wow">
-                    <img src="/img/portfolio/portfolio/1/3.jpg" alt="image" />
-                    <div className="item-img-overlay"></div>
-                  </a>
-                </Link>
-              </div>
-              <div className="cont">
-                <h6>Create With Creatives</h6>
-                <span>
-                  <a href="#0">Design</a>, <a href="#0">WordPress</a>
-                </span>
-              </div>
-            </div>
-
-            <div
-              className={`${
-                grid === 3
-                  ? "col-lg-4 col-md-6"
-                  : grid === 2
-                  ? "col-md-6"
-                  : "col-12"
-              } items graphic wow fadeInUp`}
-              data-wow-delay=".4s"
-            >
-              <div className="item-img">
-                <Link href={`/project-details2/project-details2-dark`}>
-                  <a className="imago wow">
-                    <img src="/img/portfolio/portfolio/1/4.jpg" alt="image" />
-                    <div className="item-img-overlay"></div>
-                  </a>
-                </Link>
-              </div>
-              <div className="cont">
-                <h6>Energies of Love</h6>
-                <span>
-                  <a href="#0">Design</a>, <a href="#0">WordPress</a>
-                </span>
-              </div>
-            </div>
-
-            <div
-              className={`${
-                grid === 3
-                  ? "col-lg-4 col-md-6"
-                  : grid === 2
-                  ? "col-md-6"
-                  : "col-12"
-              } items web wow fadeInUp`}
-              data-wow-delay=".4s"
-            >
-              <div className="item-img">
-                <Link href={`/project-details2/project-details2-dark`}>
-                  <a className="imago wow">
-                    <img src="/img/portfolio/portfolio/1/5.jpg" alt="image" />
-                    <div className="item-img-overlay"></div>
-                  </a>
-                </Link>
-              </div>
-              <div className="cont">
-                <h6>See It Yourself</h6>
-                <span>
-                  <a href="#0">Design</a>, <a href="#0">WordPress</a>
-                </span>
-              </div>
-            </div>
-
-            <div
-              className={`${
-                grid === 3
-                  ? "col-lg-4 col-md-6"
-                  : grid === 2
-                  ? "col-md-6"
-                  : "col-12"
-              } items brand wow fadeInUp`}
-              data-wow-delay=".4s"
-            >
-              <div className="item-img">
-                <Link href={`/project-details2/project-details2-dark`}>
-                  <a className="imago wow">
-                    <img src="/img/portfolio/portfolio/1/6.jpg" alt="image" />
-                    <div className="item-img-overlay"></div>
-                  </a>
-                </Link>
-              </div>
-              <div className="cont">
-                <h6>Blast From The Past</h6>
-                <span>
-                  <a href="#0">Design</a>, <a href="#0">WordPress</a>
-                </span>
-              </div>
-            </div>
-          </div>
+        <div className="row">
+          {projectsData.map((project, index) => (
+            <ProjectCard key={index} grid={grid} data={project} />
+          ))}
+        </div>
+      </div>
         </div>
       </div>
     </section>

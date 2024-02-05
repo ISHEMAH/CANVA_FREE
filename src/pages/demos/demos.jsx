@@ -35,7 +35,7 @@ const Demo = () => {
       <Navbar nr={navbarRef} lr={logoRef} />
       <Intro2 />
       <Services style="4item" />
-      <Video2 />
+      {/* <Video2 /> */}
       <Portfolio grid={3} filterPosition="center" />
       <FullTestimonials noPadding />
       <Team2 />
