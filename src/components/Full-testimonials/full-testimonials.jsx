@@ -107,7 +107,7 @@ class FullTestimonials extends React.Component {
                     <div className="cont">
                       <div className="author">
                         <div className="img">
-                          <img src="/img/clients/1.jpg" alt="" />
+                          <img src="https://cc-prod.scene7.com/is/image/CCProdAuthor/portrait-photography_P6b_379x392?$pjpeg$&jpegSize=100&wid=378" alt="" />
                         </div>
                         <h6 className="author-name color-font">
                           Alex Regelman
@@ -128,7 +128,7 @@ class FullTestimonials extends React.Component {
                     <div className="cont">
                       <div className="author">
                         <div className="img">
-                          <img src="/img/clients/1.jpg" alt="" />
+                          <img src="https://cc-prod.scene7.com/is/image/CCProdAuthor/portrait-photography_P6b_379x392?$pjpeg$&jpegSize=100&wid=378" alt="" />
                         </div>
                         <h6 className="author-name color-font">
                           Alex Regelman
@@ -149,7 +149,7 @@ class FullTestimonials extends React.Component {
                     <div className="cont">
                       <div className="author">
                         <div className="img">
-                          <img src="/img/clients/1.jpg" alt="" />
+                          <img src="https://cc-prod.scene7.com/is/image/CCProdAuthor/portrait-photography_P6b_379x392?$pjpeg$&jpegSize=100&wid=378" alt="" />
                         </div>
                         <h6 className="author-name color-font">
                           Alex Regelman
@@ -170,7 +170,7 @@ class FullTestimonials extends React.Component {
                     <div className="cont">
                       <div className="author">
                         <div className="img">
-                          <img src="/img/clients/1.jpg" alt="" />
+                          <img src="https://cc-prod.scene7.com/is/image/CCProdAuthor/portrait-photography_P6b_379x392?$pjpeg$&jpegSize=100&wid=378" alt="" />
                         </div>
                         <h6 className="author-name color-font">
                           Alex Regelman

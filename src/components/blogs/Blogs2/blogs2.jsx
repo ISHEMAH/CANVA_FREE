@@ -25,7 +25,7 @@ const Blogs2 = () => {
           <div className="col-lg-7 offset-lg-1">
             <div className="item wow fadeInUp" data-wow-delay=".3s">
               <div className="img valign">
-                <img src="/img/blog/1.jpg" alt="" />
+                <img src="https://services.afrinnovators.com/wp-content/uploads/2022/08/website1.jpg" alt="" />
               </div>
               <div className="cont valign">
                 <div>
@@ -56,7 +56,7 @@ const Blogs2 = () => {
             </div>
             <div className="item wow fadeInUp" data-wow-delay=".5s">
               <div className="img valign">
-                <img src="/img/blog/2.jpg" alt="" />
+                <img src="https://services.afrinnovators.com/wp-content/uploads/2022/08/website1.jpg" alt="" />
               </div>
               <div className="cont valign">
                 <div>
@@ -87,7 +87,7 @@ const Blogs2 = () => {
             </div>
             <div className="item wow fadeInUp" data-wow-delay=".3s">
               <div className="img valign">
-                <img src="/img/blog/3.jpg" alt="" />
+                <img src="https://services.afrinnovators.com/wp-content/uploads/2022/08/website1.jpg" alt="" />
               </div>
               <div className="cont valign">
                 <div>

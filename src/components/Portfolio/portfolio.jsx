@@ -6,81 +6,81 @@ import ProjectCard from "../projectCard/projectCard.js";
 
 const projectsData = [
   {
-    imageUrl: "https://example.com/creative1.jpg",
+    imageUrl: "https://assets-global.website-files.com/5e593fb060cf877cf875dd1f/64df8f9aaa825a953d1a05c6_artworksgallery1.jpeg",
     title: "Artistic Expressions",
     categories: ["Creative", "Design", "WordPress", "Graphic"],
   },
   {
-    imageUrl: "https://example.com/creative2.jpg",
+    imageUrl: "https://assets-global.website-files.com/5e593fb060cf877cf875dd1f/65524abffc1efd90c8dd0eb3_screenshot1.jpeg",
     title: "Imagination Unleashed",
     categories: ["Creative", "Design", "WordPress", "Graphic"],
   },
   {
-    imageUrl: "https://example.com/creative3.jpg",
+    imageUrl: "https://www.pixelmotives.com/wp-content/uploads/2023/06/portfolio-the-a-list-clinic-525x420.jpg",
     title: "Innovative Creations",
     categories: ["Creative", "Design", "WordPress", "Graphic"],
   },
   // Web projects
   {
-    imageUrl: "https://example.com/web1.jpg",
+    imageUrl: "https://tweakyourbiz.com/wp-content/uploads/2022/05/shutterstock_174574130.jpg",
     title: "Responsive Web Design",
     categories: ["Web"],
   },
   {
-    imageUrl: "https://example.com/web2.jpg",
+    imageUrl: "https://img.freepik.com/premium-vector/ecommerce-platform-website-landing-page-concept_1234-408.jpg",
     title: "E-Commerce Platform",
     categories: ["Web"],
   },
   {
-    imageUrl: "https://example.com/web3.jpg",
+    imageUrl: "https://geniusee.com/storage/app/media/blog104/blog104_6.jpg",
     title: "User-Friendly Interfaces",
     categories: ["Web"],
   },
   // Mobile projects
   {
-    imageUrl: "https://example.com/mobile1.jpg",
+    imageUrl: "https://i.pinimg.com/736x/47/cc/38/47cc381808321e149adf815d3701eb8d.jpg",
     title: "Mobile App Prototype",
     categories: ["Mobile"],
   },
   {
-    imageUrl: "https://example.com/mobile2.jpg",
+    imageUrl: "https://i.pinimg.com/736x/ff/a7/c0/ffa7c00a341b27b9197d112b73e2bd6b.jpg",
     title: "Android Development",
     categories: ["Mobile"],
   },
   {
-    imageUrl: "https://example.com/mobile3.jpg",
+    imageUrl: "https://i.pinimg.com/736x/ca/ba/45/caba456db19dca113ca53e115e21570c.jpg",
     title: "iOS App Design",
     categories: ["Mobile"],
   },
   // Blockchain projects
   {
-    imageUrl: "https://example.com/blockchain1.jpg",
+    imageUrl: "https://cdn.dribbble.com/users/1728196/screenshots/17151023/media/2bbfa4a9d9687dc0282d372cb775bcff.png?resize=400x0",
     title: "Decentralized Solutions",
     categories: ["Blockchain"],
   },
   {
-    imageUrl: "https://example.com/blockchain2.jpg",
+    imageUrl: "https://img.freepik.com/premium-vector/blockchain-platform-creative-landing-website-page-vector-illustration_541075-739.jpg?w=2000",
     title: "Smart Contracts Implementation",
     categories: ["Blockchain"],
   },
   {
-    imageUrl: "https://example.com/blockchain3.jpg",
+    imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTN8D0IItqY4-7F90oePJCJwibU-wH1sMaMuDevHUXuXQc2dI_VeyH42fP44ibDHeWy_Vc&usqp=CAU",
     title: "Crypto Wallet Development",
     categories: ["Blockchain"],
   },
   // AI projects
   {
-    imageUrl: "https://example.com/ai1.jpg",
+    imageUrl: "https://cdn.dribbble.com/userupload/8049330/file/original-f16c2a1b36c992b32a4e1075dcbf4352.jpg?resize=400x0",
     title: "Machine Learning Algorithms",
     categories: ["AI"],
   },
   {
-    imageUrl: "https://example.com/ai2.jpg",
+    imageUrl: "https://blog.hubspot.com/hs-fs/hubfs/Screenshot%202023-04-11%20at%2012.33.07%20PM.jpg?width=650&height=325&name=Screenshot%202023-04-11%20at%2012.33.07%20PM.jpg",
     title: "Natural Language Processing",
     categories: ["AI"],
   },
   {
-    imageUrl: "https://example.com/ai3.jpg",
+    imageUrl: "https://usercontent.one/wp/www.insidr.ai/wp-content/uploads/2023/04/Writesonic-website-Insidr.ai-ai-tools-768x372.png?media=1705425533",
     title: "Computer Vision Applications",
     categories: ["AI"],
   },

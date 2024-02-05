@@ -23,7 +23,7 @@ const Team2 = () => {
           <div className="col-lg-3 col-md-6">
             <div className="item cir md-mb50">
               <div className="img">
-                <img src="/img/team/1.jpg" alt="" />
+                <img src="https://img.freepik.com/free-photo/portrait-white-man-isolated_53876-40306.jpg" alt="" />
                 <div id="circle1">
                   <svg
                     version="1.1"
@@ -63,8 +63,8 @@ const Team2 = () => {
           <div className="col-lg-3 col-md-6">
             <div className="item cir md-mb50">
               <div className="img">
-                <img src="/img/team/2.jpg" alt="" />
-                <div id="circle2">
+                <img src="https://img.freepik.com/free-photo/portrait-white-man-isolated_53876-40306.jpg" alt="" />
+                <div id="circle1">
                   <svg
                     version="1.1"
                     xmlns="http://www.w3.org/2000/svg"
@@ -78,16 +78,16 @@ const Team2 = () => {
                   >
                     <defs>
                       <path
-                        id="circlePath2"
+                        id="circlePath1"
                         d=" M 150, 150 m -60, 0 a 60,60 0 0,1 120,0 a 60,60 0 0,1 -120,0 "
                       />
                     </defs>
                     <circle cx="150" cy="100" r="75" fill="none" />
                     <g>
-                      <use xlinkHref="#circlePath2" fill="none" />
+                      <use xlinkHref="#circlePath1" fill="none" />
                       <text fill="#fff">
-                        <textPath xlinkHref="#circlePath2">
-                          Interior Designer Interior Designer Interior Designer
+                        <textPath xlinkHref="#circlePath1">
+                          CEO Manager CEO Manager CEO Manager
                         </textPath>
                       </text>
                     </g>
@@ -103,7 +103,7 @@ const Team2 = () => {
           <div className="col-lg-3 col-md-6">
             <div className="item cir sm-mb50">
               <div className="img">
-                <img src="/img/team/3.jpg" alt="" />
+                <img src="https://img.freepik.com/free-photo/portrait-white-man-isolated_53876-40306.jpg" alt="" />
                 <div id="circle3">
                   <svg
                     version="1.1"
@@ -144,7 +144,7 @@ const Team2 = () => {
           <div className="col-lg-3 col-md-6">
             <div className="item cir">
               <div className="img">
-                <img src="/img/team/4.jpg" alt="" />
+                <img src="https://img.freepik.com/free-photo/portrait-white-man-isolated_53876-40306.jpg" alt="" />
                 <div id="circle4">
                   <svg
                     version="1.1"

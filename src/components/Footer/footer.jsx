@@ -48,7 +48,7 @@ const Footer = ({ hideBGCOLOR }) => {
                   <div className="img">
                     <Link href="/blog-details/blog-details-dark">
                       <a>
-                        <img src="/img/blog/1.jpg" alt="" />
+                        <img src="https://services.afrinnovators.com/wp-content/uploads/2022/08/website1.jpg" alt="" />
                       </a>
                     </Link>
                   </div>
@@ -72,7 +72,7 @@ const Footer = ({ hideBGCOLOR }) => {
                   <div className="img">
                     <Link href="/blog-details/blog-details-dark">
                       <a>
-                        <img src="/img/blog/2.jpg" alt="" />
+                        <img src="https://services.afrinnovators.com/wp-content/uploads/2022/08/website1.jpg" alt="" />
                       </a>
                     </Link>
                   </div>

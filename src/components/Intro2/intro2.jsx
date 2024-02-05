@@ -12,7 +12,7 @@ const Intro2 = ({ sliderRef }) => {
               <div className="sub-title mb-5">
                 <h6>IT Consulting Agency</h6>
               </div>
-              <h1 className="mb-10 fw-600">Unique Dev Consulting Agency.</h1>
+              <h1 className="mb-10 fw-600"><span className='color-font'>Cybector</span> , Unique Dev Agency.</h1>
               <p>
                 We help our clients succeed by creating brand identities,
                 digital experiences, and print materials.
