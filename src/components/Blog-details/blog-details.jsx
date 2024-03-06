@@ -4,7 +4,7 @@ import Link from "next/link";
 import { Formik, Form, Field } from "formik";
 import { Link as ScrollLink } from "react-scroll";
 
-const BlogDetails = ({ theme }) => {
+const BlogDetails = ({ theme, blogData }) => {
   const messageRef = React.useRef(null);
   function validateEmail(value) {
     let error;

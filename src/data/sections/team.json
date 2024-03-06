@@ -2,27 +2,27 @@
   "teams": [
     {
       "id": 1,
-      "image": "/img/team/1.jpg",
+      "image": "/img/team/4.jpg",
       "title": "Stephanie Lawrence",
       "sub": "CEO, Colabrio Media"
     },
     {
       "id": 2,
-      "image": "/img/team/2.jpg",
+      "image": "/img/team/4.jpg",
       "title": "Alex Regelman",
-      "sub": "CEO, Colabrio Media"
+      "sub": "Designer"
     },
     {
       "id": 3,
-      "image": "/img/team/3.jpg",
+      "image": "/img/team/4.jpg",
       "title": "Stacey Stamper",
-      "sub": "CEO, Colabrio Media"
+      "sub": "Frontend Developer"
     },
     {
       "id": 4,
       "image": "/img/team/4.jpg",
       "title": "Stephanie Lawrence",
-      "sub": "CEO, Colabrio Media"
+      "sub": "Backend Developer"
     }
   ],
   "skills": [

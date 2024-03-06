@@ -48,7 +48,10 @@ const Footer = ({ hideBGCOLOR }) => {
                   <div className="img">
                     <Link href="/blog-details/blog-details-dark">
                       <a>
-                        <img src="https://services.afrinnovators.com/wp-content/uploads/2022/08/website1.jpg" alt="" />
+                        <img
+                          src="https://services.afrinnovators.com/wp-content/uploads/2022/08/website1.jpg"
+                          alt=""
+                        />
                       </a>
                     </Link>
                   </div>
@@ -72,7 +75,10 @@ const Footer = ({ hideBGCOLOR }) => {
                   <div className="img">
                     <Link href="/blog-details/blog-details-dark">
                       <a>
-                        <img src="https://services.afrinnovators.com/wp-content/uploads/2022/08/website1.jpg" alt="" />
+                        <img
+                          src="https://services.afrinnovators.com/wp-content/uploads/2022/08/website1.jpg"
+                          alt=""
+                        />
                       </a>
                     </Link>
                   </div>
@@ -123,10 +129,7 @@ const Footer = ({ hideBGCOLOR }) => {
               <div className="copy-right">
                 <p>
                   © 2022, Vie Template. Made with passion by
-                  <Link
-                    href="https://themeforest.net/user/themescamp/portfolio"
-                    
-                  >
+                  <Link href="https://themeforest.net/user/themescamp/portfolio">
                     <a target="_blank">ThemesCamp</a>
                   </Link>
                   .
