@@ -23,7 +23,7 @@ const Team2 = () => {
           <div className="col-lg-3 col-md-6">
             <div className="item cir md-mb50">
               <div className="img">
-                <img src="https://img.freepik.com/free-photo/portrait-white-man-isolated_53876-40306.jpg" alt="" />
+                <img src="/img/portfolio/team/p4.jpeg" alt="" />
                 <div id="circle1">
                   <svg
                     version="1.1"
@@ -63,7 +63,7 @@ const Team2 = () => {
           <div className="col-lg-3 col-md-6">
             <div className="item cir md-mb50">
               <div className="img">
-                <img src="https://img.freepik.com/free-photo/portrait-white-man-isolated_53876-40306.jpg" alt="" />
+                <img src="/img/portfolio/team/p6.jpeg" alt="" />
                 <div id="circle1">
                   <svg
                     version="1.1"
@@ -94,7 +94,7 @@ const Team2 = () => {
                   </svg>
                 </div>
                 <div className="info">
-                  <h6>Ryan Hicks</h6>
+                  <h6>Emily Johnson</h6>
                   <span>Client Manager</span>
                 </div>
               </div>
@@ -103,7 +103,7 @@ const Team2 = () => {
           <div className="col-lg-3 col-md-6">
             <div className="item cir sm-mb50">
               <div className="img">
-                <img src="https://img.freepik.com/free-photo/portrait-white-man-isolated_53876-40306.jpg" alt="" />
+                <img src="/img/portfolio/team/p5.jpeg" alt="" />
                 <div id="circle3">
                   <svg
                     version="1.1"
@@ -135,7 +135,7 @@ const Team2 = () => {
                   </svg>
                 </div>
                 <div className="info">
-                  <h6>Ryan Hicks</h6>
+                  <h6>Michael Brown</h6>
                   <span>Client Manager</span>
                 </div>
               </div>
@@ -144,7 +144,7 @@ const Team2 = () => {
           <div className="col-lg-3 col-md-6">
             <div className="item cir">
               <div className="img">
-                <img src="https://img.freepik.com/free-photo/portrait-white-man-isolated_53876-40306.jpg" alt="" />
+                <img src="/img/portfolio/team/p3.jpeg" alt="" />
                 <div id="circle4">
                   <svg
                     version="1.1"
@@ -175,7 +175,7 @@ const Team2 = () => {
                   </svg>
                 </div>
                 <div className="info">
-                  <h6>Ryan Hicks</h6>
+                  <h6>John Smith</h6>
                   <span>Client Manager</span>
                 </div>
               </div>

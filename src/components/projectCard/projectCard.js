@@ -2,7 +2,7 @@ import React from "react";
 import Link from "next/link";
 
 const ProjectCard = ({ grid, data }) => {
-  const { imageUrl, title, categories } = data;
+  const { id, imageUrl, title, categories } = data;
 
   return (
     <div
@@ -16,7 +16,8 @@ const ProjectCard = ({ grid, data }) => {
       data-wow-delay=".4s"
     >
       <div className="item-img">
-        <Link href={`/project-details2/project-details2-dark`}>
+        <Link href={`/project-details2/project-details2-dark?id=${id}`}>
+          {/* Include the project ID as a query parameter */}
           <a className="imago wow">
             <img src={imageUrl} alt="image" />
             <div className="item-img-overlay"></div>

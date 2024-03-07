@@ -1,4 +1,5 @@
 import React from "react";
+import { useRouter } from "next/router";
 import Navbar from "../../components/Navbar/navbar";
 import Footer from "../../components/Footer/footer";
 import DarkTheme from "../../layouts/Dark";
@@ -13,6 +14,10 @@ import NextProject from "../../components/Next-project/next-project";
 const ProjectDetails2Dark = () => {
   const navbarRef = React.useRef(null);
   const logoRef = React.useRef(null);
+
+  const router = useRouter();
+  const { id } = router.query;
+  console.log("ID:", id);
 
   React.useEffect(() => {
     var navbar = navbarRef.current,
@@ -30,16 +35,33 @@ const ProjectDetails2Dark = () => {
       }
     });
   }, [navbarRef]);
+
+  
+  for (var i = 0; i < ProjectDate.length; i++) {
+    if (ProjectDate[i].id == id) {
+      return (
+        <DarkTheme>
+          <Navbar nr={navbarRef} lr={logoRef} />
+          <div className="wrapper">
+            <ProjectDetails2Header projectHeaderData={ProjectDate[i]} />
+            <ProjectIntroduction projectIntroductionData={ProjectDate[i].intro} />
+            <ProjectGallery projectGallery={ProjectDate[i]} />
+            <ProjectDescription projectDescriptionData={ProjectDate[i].description} />
+            <ProjectVideo projectVideoDate={ProjectDate[i]} />
+            <NextProject />
+            <Footer />
+          </div>
+        </DarkTheme>
+      );
+    }
+  }
+  
+
   return (
     <DarkTheme>
       <Navbar nr={navbarRef} lr={logoRef} />
       <div className="wrapper">
-        <ProjectDetails2Header projectHeaderData={ProjectDate} />
-        <ProjectIntroduction projectIntroductionData={ProjectDate.intro} />
-        <ProjectGallery />
-        <ProjectDescription projectDescriptionData={ProjectDate.description} />
-        <ProjectVideo projectVideoDate={ProjectDate} />
-        <NextProject />
+        <p>No such project</p>
         <Footer />
       </div>
     </DarkTheme>

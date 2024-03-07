@@ -128,20 +128,19 @@ class FullTestimonials extends React.Component {
                     <div className="cont">
                       <div className="author">
                         <div className="img">
-                          <img src="https://cc-prod.scene7.com/is/image/CCProdAuthor/portrait-photography_P6b_379x392?$pjpeg$&jpegSize=100&wid=378" alt="" />
+                          <img src="https://randomuser.me/api/portraits/women/89.jpg" alt="" />
                         </div>
                         <h6 className="author-name color-font">
-                          Alex Regelman
+                        Emily Johnson
                         </h6>
                         <span className="author-details">
-                          Co-founder, Colabrio
+                          Co-founder, StockM
                         </span>
                       </div>
                     </div>
                   </div>
                   <p>
-                    I would highly recommend Vie Digital. I worked with the team
-                    on an animation for our ‘Click &amp; Collect’ service.
+                  Fantastic work! The team understood my vision perfectly and delivered exceptional results.
                   </p>
                 </div>
                 <div className="item">
@@ -149,20 +148,19 @@ class FullTestimonials extends React.Component {
                     <div className="cont">
                       <div className="author">
                         <div className="img">
-                          <img src="https://cc-prod.scene7.com/is/image/CCProdAuthor/portrait-photography_P6b_379x392?$pjpeg$&jpegSize=100&wid=378" alt="" />
+                          <img src="https://randomuser.me/api/portraits/men/9.jpg" alt="" />
                         </div>
                         <h6 className="author-name color-font">
-                          Alex Regelman
+                        Alex Thompson
                         </h6>
                         <span className="author-details">
-                          Co-founder, Colabrio
+                          Hiring Manager, Nova
                         </span>
                       </div>
                     </div>
                   </div>
                   <p>
-                    I would highly recommend Vie Digital. I worked with the team
-                    on an animation for our ‘Click &amp; Collect’ service.
+                  Highly recommend! The agency was responsive, proactive, and delivered beyond expectations
                   </p>
                 </div>
                 <div className="item">
@@ -170,20 +168,19 @@ class FullTestimonials extends React.Component {
                     <div className="cont">
                       <div className="author">
                         <div className="img">
-                          <img src="https://cc-prod.scene7.com/is/image/CCProdAuthor/portrait-photography_P6b_379x392?$pjpeg$&jpegSize=100&wid=378" alt="" />
+                          <img src="https://randomuser.me/api/portraits/men/20.jpg" alt="" />
                         </div>
                         <h6 className="author-name color-font">
-                          Alex Regelman
+                        Ryan Martinez
                         </h6>
                         <span className="author-details">
-                          Co-founder, Colabrio
+                          Co-founder, Liblio
                         </span>
                       </div>
                     </div>
                   </div>
                   <p>
-                    I would highly recommend Vie Digital. I worked with the team
-                    on an animation for our ‘Click &amp; Collect’ service.
+                  Best decision ever! Expertise, attention to detail, and quality were top-notch.
                   </p>
                 </div>
               </Slider>
