@@ -68,7 +68,7 @@ const WorksStyle2 = ({ grid, hideFilter, filterPosition }) => {
               <div className="item-img">
                 <Link href={`/project-details2/project-details2-dark`}>
                   <a className="imago wow">
-                    <img src="/img/portfolio/portfolio/1/1.jpg" alt="image" />
+                    <img src="/img/portfolio/works/w1.jpeg" alt="image" />
                     <div className="item-img-overlay"></div>
                   </a>
                 </Link>
@@ -95,7 +95,7 @@ const WorksStyle2 = ({ grid, hideFilter, filterPosition }) => {
               <div className="item-img">
                 <Link href={`/project-details2/project-details2-dark`}>
                   <a className="imago wow">
-                    <img src="/img/portfolio/portfolio/1/2.jpg" alt="image" />
+                    <img src="/img/portfolio/works/w2.jpeg" alt="image" />
                     <div className="item-img-overlay"></div>
                   </a>
                 </Link>
@@ -122,7 +122,7 @@ const WorksStyle2 = ({ grid, hideFilter, filterPosition }) => {
               <div className="item-img">
                 <Link href={`/project-details2/project-details2-dark`}>
                   <a className="imago wow">
-                    <img src="/img/portfolio/portfolio/1/3.jpg" alt="image" />
+                    <img src="/img/portfolio/works/w4.jpeg" alt="image" />
                     <div className="item-img-overlay"></div>
                   </a>
                 </Link>
@@ -149,7 +149,7 @@ const WorksStyle2 = ({ grid, hideFilter, filterPosition }) => {
               <div className="item-img">
                 <Link href={`/project-details2/project-details2-dark`}>
                   <a className="imago wow">
-                    <img src="/img/portfolio/portfolio/1/4.jpg" alt="image" />
+                    <img src="/img/portfolio/works/w5.jpeg" alt="image" />
                     <div className="item-img-overlay"></div>
                   </a>
                 </Link>
@@ -176,7 +176,7 @@ const WorksStyle2 = ({ grid, hideFilter, filterPosition }) => {
               <div className="item-img">
                 <Link href={`/project-details2/project-details2-dark`}>
                   <a className="imago wow">
-                    <img src="/img/portfolio/portfolio/1/5.jpg" alt="image" />
+                    <img src="/img/portfolio/works/w6.jpeg" alt="image" />
                     <div className="item-img-overlay"></div>
                   </a>
                 </Link>
@@ -203,7 +203,7 @@ const WorksStyle2 = ({ grid, hideFilter, filterPosition }) => {
               <div className="item-img">
                 <Link href={`/project-details2/project-details2-dark`}>
                   <a className="imago wow">
-                    <img src="/img/portfolio/portfolio/1/6.jpg" alt="image" />
+                    <img src="/img/portfolio/works/w3.jpeg" alt="image" />
                     <div className="item-img-overlay"></div>
                   </a>
                 </Link>
