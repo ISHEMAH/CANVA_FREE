@@ -17,7 +17,7 @@ const ProjectDetails2Dark = () => {
 
   const router = useRouter();
   const { id } = router.query;
-  console.log("ID:", id);
+  // console.log("ID:", id);
 
   React.useEffect(() => {
     var navbar = navbarRef.current,

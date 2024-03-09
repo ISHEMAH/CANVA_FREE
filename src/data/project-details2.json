@@ -3,7 +3,7 @@
     "id": 1,
     "title": { "small": "art & illustration", "big": "Inspiring new space." },
     "clientURLLink": "#",
-    "projectHeaderImage": "/img/portfolio/prj1/bg2.jpeg",
+    "projectHeaderImage": "/img/portfolio/prj1/bg2.jpg",
     "videoLink": "https://vimeo.com/127203262",
     "clientURLName": "Envato.com",
     "date": "6 August 2022",
@@ -72,7 +72,7 @@
     "id": 2,
     "title": { "small": "Inspiring Innovation", "big": "Fostering creativity through dynamic digital realms." },
     "clientURLLink": "#",
-    "projectHeaderImage": "/img/portfolio/prj2/bg1.jpeg",
+    "projectHeaderImage": "/img/portfolio/prj2/bg1.jpg",
     "videoLink": "https://vimeo.com/127203263",
     "clientURLName": "Amazon",
     "date": "12 September 2022",
@@ -142,7 +142,7 @@
     "id": 3,
     "title": { "small": "Innovative Creations ", "big": "Where creativity meets technology, forging a new path in digital design." },
     "clientURLLink": "#",
-    "projectHeaderImage": "/img/portfolio/prj1/bg2.jpeg",
+    "projectHeaderImage": "/img/portfolio/prj3/bg1.jpg",
     "videoLink": "https://vimeo.com/127203263",
     "clientURLName": "Amazon",
     "date": "12 September 2022",
@@ -201,7 +201,7 @@
       "/img/portfolio/prj3/team.png",
       "/img/portfolio/prj3/design.jpeg",
       "/img/portfolio/prj3/join.jpeg",
-      "https://www.pixelmotives.com/wp-content/uploads/2023/06/portfolio-the-a-list-clinic-525x420.jpg"
+      "/img/portfolio/prj3/bg2.jpg"
     ],
     "description": {
       "content": "At Innovative Creations, we redefine digital boundaries through creative technology fusion. Specializing in design, WordPress development, and graphic artistry, our projects reflect innovation and excellence. Experience the transformative power with us."

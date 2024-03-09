@@ -3,10 +3,7 @@ import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import p1 from "../../../public/img/clients/p1.jpeg"
-import p2 from "../../../public/img/clients/p2.jpeg"
-import p3 from "../../../public/img/clients/p3.jpeg"
-import p4 from "../../../public/img/clients/p4.jpeg"
+
 
 class TestimonialsArch extends React.Component {
   constructor(props) {
@@ -119,7 +116,7 @@ class TestimonialsArch extends React.Component {
                     <div className="cont">
                       <div className="author">
                         <div className="img">
-                          <img src={p4} alt="" />
+                          <img src="./img/clients/1.jpg" alt="" />
                         </div>
                         <h6 className="author-name color-font">
                           Alex Regelman
@@ -143,7 +140,7 @@ class TestimonialsArch extends React.Component {
                     <div className="cont">
                       <div className="author">
                         <div className="img">
-                          <img src={p3} alt="" />
+                          <img src="./img/clients/1.jpg" alt="" />
                         </div>
                         <h6 className="author-name color-font">
                           Alex Regelman
@@ -167,7 +164,7 @@ class TestimonialsArch extends React.Component {
                     <div className="cont">
                       <div className="author">
                         <div className="img">
-                          <img src={p2} alt="" />
+                          <img src="./img/clients/1.jpg" alt="" />
                         </div>
                         <h6 className="author-name color-font">
                           Alex Regelman
