@@ -113,7 +113,7 @@ const VideoWithTestimonials = () => {
                         <div className="author">
                           <h6 className="author-name ">Alex Regelman</h6>
                           <span className="author-details">
-                            developer, madpizza
+                            Developer, madpizza
                           </span>
                         </div>
                       </div>
