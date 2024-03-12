@@ -15,11 +15,6 @@
     "static/development/_middlewareManifest.js"
   ],
   "pages": {
-    "/404": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/404.js"
-    ],
     "/_app": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
@@ -30,20 +25,15 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/homepage/home1-dark": [
+    "/blog-details/blog-details-dark": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/homepage/home1-dark.js"
+      "static/chunks/pages/blog-details/blog-details-dark.js"
     ],
-    "/homepage/home2-dark": [
+    "/blog/blog-dark": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/homepage/home2-dark.js"
-    ],
-    "/homepage/home3-dark": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/homepage/home3-dark.js"
+      "static/chunks/pages/blog/blog-dark.js"
     ]
   },
   "ampFirstPages": []
