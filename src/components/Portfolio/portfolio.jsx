@@ -140,9 +140,9 @@ const Portfolio = ({ grid, filterPosition }) => {
                 All
               </span>
               <span data-filter=".Web">Web</span>
-              <span data-filter=".mobile">Mobile App</span>
-              <span data-filter=".blockchain">Blockchain</span>
-              <span data-filter=".ai">AI</span>
+              <span data-filter=".Mobile">Mobile App</span>
+              <span data-filter=".Blockchain">Blockchain</span>
+              <span data-filter=".AI">AI</span>
             </div>
           </div>
 
