@@ -1,6 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
 import Link from "next/link";
+import blogData from "../../../data/blog1.json"
 
 const Blogs2 = () => {
   return (
@@ -23,99 +24,41 @@ const Blogs2 = () => {
             </div>
           </div>
           <div className="col-lg-7 offset-lg-1">
-            <div className="item wow fadeInUp" data-wow-delay=".3s">
-              <div className="img valign">
-                <img src="https://services.afrinnovators.com/wp-content/uploads/2022/08/website1.jpg" alt="" />
-              </div>
-              <div className="cont valign">
-                <div>
-                  <div className="info">
-                    <Link href="/blog/blog-dark">
-                      <a className="date">
-                        <span>
-                          <i>06</i> August
-                        </span>
-                      </a>
-                    </Link>
-                    <span>/</span>
-                    <Link href="/blog/blog-dark">
-                      <a className="tag">
-                        <span>WordPress</span>
-                      </a>
-                    </Link>
-                  </div>
-                  <h5>
-                    <Link href="/blog-details/blog-details-dark">
-                      <a>
-                        How to use solid color combine with simple furnitures.
-                      </a>
-                    </Link>
-                  </h5>
-                </div>
-              </div>
-            </div>
-            <div className="item wow fadeInUp" data-wow-delay=".5s">
-              <div className="img valign">
-                <img src="https://services.afrinnovators.com/wp-content/uploads/2022/08/website1.jpg" alt="" />
-              </div>
-              <div className="cont valign">
-                <div>
-                  <div className="info">
-                    <Link href="/blog/blog-dark">
-                      <a className="date">
-                        <span>
-                          <i>06</i> August
-                        </span>
-                      </a>
-                    </Link>
-                    <span>/</span>
-                    <Link href="/blog/blog-dark">
-                      <a className="tag">
-                        <span>WordPress</span>
-                      </a>
-                    </Link>
-                  </div>
-                  <h5>
-                    <Link href="/blog-details/blog-details-dark">
-                      <a>
-                        How to use solid color combine with simple furnitures.
-                      </a>
-                    </Link>
-                  </h5>
-                </div>
-              </div>
-            </div>
-            <div className="item wow fadeInUp" data-wow-delay=".3s">
-              <div className="img valign">
-                <img src="https://services.afrinnovators.com/wp-content/uploads/2022/08/website1.jpg" alt="" />
-              </div>
-              <div className="cont valign">
-                <div>
-                  <div className="info">
-                    <Link href="/blog/blog-dark">
-                      <a className="date">
-                        <span>
-                          <i>06</i> August
-                        </span>
-                      </a>
-                    </Link>
-                    <span>/</span>
-                    <Link href="/blog/blog-dark">
-                      <a className="tag">
-                        <span>WordPress</span>
-                      </a>
-                    </Link>
-                  </div>
-                  <h5>
-                    <Link href="/blog-details/blog-details-dark">
-                      <a>
-                        How to use solid color combine with simple furnitures.
-                      </a>
-                    </Link>
-                  </h5>
-                </div>
-              </div>
-            </div>
+            
+         {blogData.slice(0,3).map((blogItem,index)=>(
+           <div className="item wow fadeInUp" data-wow-delay=".3s">
+           <div className="img valign">
+             <img src={blogItem.image} alt="" />
+           </div>
+           <div className="cont valign">
+             <div>
+               <div className="info">
+                 <Link href="/blog/blog-dark">
+                   <a className="date">
+                     <span>
+                       <i>{blogItem.date.day}</i> {blogItem.date.month}
+                     </span>
+                   </a>
+                 </Link>
+                 <span>/</span>
+                 <Link href="/blog/blog-dark">
+                   <a className="tag">
+                     <span>{blogItem.tags[1]}</span>
+                   </a>
+                 </Link>
+               </div>
+               <h5>
+                 <Link href="/blog-details/blog-details-dark">
+                   <a>
+                   {blogItem.title}
+                   </a>
+                 </Link>
+               </h5>
+             </div>
+           </div>
+         </div>
+         ))}
+            
           </div>
         </div>
       </div>

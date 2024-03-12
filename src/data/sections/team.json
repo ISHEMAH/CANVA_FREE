@@ -2,26 +2,26 @@
   "teams": [
     {
       "id": 1,
-      "image": "/img/team/4.jpg",
-      "title": "Stephanie Lawrence",
+      "image": "/img/portfolio/team/p5.jpeg",
+      "title": "Michael Brown",
       "sub": "CEO, Colabrio Media"
     },
     {
       "id": 2,
-      "image": "/img/team/4.jpg",
-      "title": "Alex Regelman",
+      "image": "/img/portfolio/team/p4.jpeg",
+      "title": "Ryan Hicks",
       "sub": "Designer"
     },
     {
       "id": 3,
-      "image": "/img/team/4.jpg",
-      "title": "Stacey Stamper",
+      "image": "/img/portfolio/team/p6.jpeg",
+      "title": "Emily Johnson",
       "sub": "Frontend Developer"
     },
     {
       "id": 4,
-      "image": "/img/team/4.jpg",
-      "title": "Stephanie Lawrence",
+      "image": "/img/portfolio/team/p3.jpeg",
+      "title": "John Smith",
       "sub": "Backend Developer"
     }
   ],
