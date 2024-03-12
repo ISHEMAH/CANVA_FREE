@@ -50,7 +50,7 @@ const Footer = ({ hideBGCOLOR }) => {
                     <div className="img">
                       <Link href="/blog-details/blog-details-dark">
                         <a>
-                          <img src={item.image} alt="" />
+                          <img src={item.image} alt={`blog ${item.id}`} />
                         </a>
                       </Link>
                     </div>
@@ -60,13 +60,15 @@ const Footer = ({ hideBGCOLOR }) => {
                           <p>{item.title}</p>
                         </a>
                       </Link>
-                      <Link href="/blog/blog-dark">
-                        <a>
-                          <span className="date">
-                            {item.date.day} {item.date.month} {item.date.year}{" "}
-                          </span>
-                        </a>
-                      </Link>
+                      <div>
+                        <Link href="/blog/blog-dark">
+                          <a>
+                            <span className="date">
+                              {item.date.day} {item.date.month} {item.date.year}{" "}
+                            </span>
+                          </a>
+                        </Link>
+                      </div>
                     </div>
                   </li>
                 ))}
