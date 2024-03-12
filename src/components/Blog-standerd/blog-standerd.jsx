@@ -17,36 +17,28 @@ const BlogStanderd = ({ blogs }) => {
                   key={blogItem.id}
                 >
                   <div className="img">
-                    <Link href={`/blog-details/blog-details-dark`}>
-                      <a>
-                        <img src={blogItem.image} alt="" />
-                      </a>
-                    </Link>
+                    <a>
+                      <img src={blogItem.image} alt="" />
+                    </a>
                   </div>
                   <div className="content">
                     <div className="row justify-content-center">
                       <div className="col-10">
-                        <Link href={`/blog/blog-dark`}>
-                          <a className="date">
-                            <span className="num">{blogItem.date.day}</span>{" "}
-                            <span className="num">{blogItem.date.month}</span>{" "}
-                            <span>{blogItem.date.year}</span>
-                          </a>
-                        </Link>
+                        <a className="date">
+                          <span className="num">{blogItem.date.day}</span>{" "}
+                          <span className="num">{blogItem.date.month}</span>{" "}
+                          <span>{blogItem.date.year}</span>
+                        </a>
                         <div className="tags">
                           {blogItem.tags.map((tag, index) => (
-                            <Link key={index} href="/blog/blog-dark">
-                              {tag}
-                            </Link>
+                            <a key={index}>{tag}</a>
                           ))}
                         </div>
-                        <h4 className="title">
-                          <Link href={`/blog-details/blog-details-dark`}>
-                            {blogItem.title}
-                          </Link>
-                        </h4>
+                        <h4 className="title">{blogItem.title}</h4>
                         <p>{blogItem.content}</p>
-                        <Link href={`/blog-details/blog-details-dark`}>
+                        <Link
+                          href={`/blog-details/blog-details-dark?id=${blogItem.id}`}
+                        >
                           <a className="butn bord curve mt-30">Read More</a>
                         </Link>
                       </div>
