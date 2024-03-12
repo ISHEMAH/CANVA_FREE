@@ -15,11 +15,6 @@
     "static/development/_middlewareManifest.js"
   ],
   "pages": {
-    "/": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/index.js"
-    ],
     "/_app": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
@@ -30,15 +25,15 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/about/about-dark": [
+    "/blog-details/blog-details-dark": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/about/about-dark.js"
+      "static/chunks/pages/blog-details/blog-details-dark.js"
     ],
-    "/showcase/showcase-dark": [
+    "/works2/works2-dark": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/showcase/showcase-dark.js"
+      "static/chunks/pages/works2/works2-dark.js"
     ]
   },
   "ampFirstPages": []
