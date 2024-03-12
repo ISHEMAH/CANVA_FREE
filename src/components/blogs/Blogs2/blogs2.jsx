@@ -26,7 +26,7 @@ const Blogs2 = () => {
           <div className="col-lg-7 offset-lg-1">
             
          {blogData.slice(0,3).map((blogItem,index)=>(
-           <div className="item wow fadeInUp" data-wow-delay=".3s">
+           <div className="item wow fadeInUp" data-wow-delay=".3s" key={index}>
            <div className="img valign">
              <img src={blogItem.image} alt="" />
            </div>

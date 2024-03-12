@@ -15,7 +15,6 @@ const BlogDetailsDark = () => {
 
   const selectedBlog = blogs.find((blog) => blog.id === parseInt(id, 10));
 
-  console.log(selectedBlog);
 
   React.useEffect(() => {
     var navbar = navbarRef.current,
