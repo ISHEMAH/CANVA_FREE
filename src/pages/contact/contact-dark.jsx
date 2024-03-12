@@ -44,7 +44,6 @@ const Contact = () => {
             loading="lazy"
           ></iframe>
         </div>
-
         <Footer hideBGCOLOR />
       </div>
     </DarkTheme>
