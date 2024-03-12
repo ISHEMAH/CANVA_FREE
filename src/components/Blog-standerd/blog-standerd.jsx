@@ -28,8 +28,9 @@ const BlogStanderd = ({ blogs }) => {
                       <div className="col-10">
                         <Link href={`/blog/blog-dark`}>
                           <a className="date">
-                            <span className="num">{blogItem.date.day}</span>
-                            <span>{blogItem.date.month}</span>
+                            <span className="num">{blogItem.date.day}</span>{" "}
+                            <span className="num">{blogItem.date.month}</span>{" "}
+                            <span>{blogItem.date.year}</span>
                           </a>
                         </Link>
                         <div className="tags">

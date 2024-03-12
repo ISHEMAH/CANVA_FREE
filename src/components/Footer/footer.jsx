@@ -2,6 +2,7 @@
 import React from "react";
 import Link from "next/link";
 import appData from "../../data/app.json";
+import blogData from "../../data/blog1.json";
 
 const Footer = ({ hideBGCOLOR }) => {
   return (
@@ -44,54 +45,33 @@ const Footer = ({ hideBGCOLOR }) => {
                 <h5>Recent News</h5>
               </div>
               <ul>
-                <li>
-                  <div className="img">
-                    <Link href="/blog-details/blog-details-dark">
-                      <a>
-                        <img src="https://services.afrinnovators.com/wp-content/uploads/2022/08/website1.jpg" alt="" />
-                      </a>
-                    </Link>
-                  </div>
-                  <div className="sm-post">
-                    <Link href="/blog-details/blog-details-dark">
-                      <a>
-                        <p>
-                          The Start-Up Ultimate Guide to Make Your WordPress
-                          Journal.
-                        </p>
-                      </a>
-                    </Link>
-                    <Link href="/blog/blog-dark">
-                      <a>
-                        <span className="date">14 sep 2022</span>
-                      </a>
-                    </Link>
-                  </div>
-                </li>
-                <li>
-                  <div className="img">
-                    <Link href="/blog-details/blog-details-dark">
-                      <a>
-                        <img src="https://services.afrinnovators.com/wp-content/uploads/2022/08/website1.jpg" alt="" />
-                      </a>
-                    </Link>
-                  </div>
-                  <div className="sm-post">
-                    <Link href="/blog-details/blog-details-dark">
-                      <a>
-                        <p>
-                          The Start-Up Ultimate Guide to Make Your WordPress
-                          Journal.
-                        </p>
-                      </a>
-                    </Link>
-                    <Link href="/blog/blog-dark">
-                      <a>
-                        <span className="date">14 sep 2022</span>
-                      </a>
-                    </Link>
-                  </div>
-                </li>
+                {blogData.slice(0, 2).map((item, index) => (
+                  <li key={item.id}>
+                    <div className="img">
+                      <Link href="/blog-details/blog-details-dark">
+                        <a>
+                          <img src={item.image} alt={`blog ${item.id}`} />
+                        </a>
+                      </Link>
+                    </div>
+                    <div className="sm-post">
+                      <Link href="/blog-details/blog-details-dark">
+                        <a>
+                          <p>{item.title}</p>
+                        </a>
+                      </Link>
+                      <div>
+                        <Link href="/blog/blog-dark">
+                          <a>
+                            <span className="date">
+                              {item.date.day} {item.date.month} {item.date.year}{" "}
+                            </span>
+                          </a>
+                        </Link>
+                      </div>
+                    </div>
+                  </li>
+                ))}
                 <li>
                   <div className="subscribe">
                     <input type="text" placeholder="Type Your Email" />
@@ -123,10 +103,7 @@ const Footer = ({ hideBGCOLOR }) => {
               <div className="copy-right">
                 <p>
                   © 2022, Vie Template. Made with passion by
-                  <Link
-                    href="https://themeforest.net/user/themescamp/portfolio"
-                    
-                  >
+                  <Link href="https://themeforest.net/user/themescamp/portfolio">
                     <a target="_blank">ThemesCamp</a>
                   </Link>
                   .

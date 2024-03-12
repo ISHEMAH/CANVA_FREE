@@ -44,7 +44,7 @@ const About = () => {
       <MinimalArea />
       <Clients theme="light" />
       <CallToAction />
-      <Footer />
+      <Footer/>
     </LightTheme>
   );
 };

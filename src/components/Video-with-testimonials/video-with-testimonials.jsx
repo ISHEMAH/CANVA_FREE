@@ -73,9 +73,11 @@ const VideoWithTestimonials = () => {
                 >
                   <div className="item">
                     <p>
-                      Nulla metus metus ullamcorper vel tincidunt sed euismod
-                      nibh volutpat velit class aptent taciti sociosqu ad
-                      litora.
+                      I had the privilege of collaborating with an exceptional
+                      team of technical experts whose passion and dedication
+                      exceeded expectations. Their innovative thinking and
+                      cohesive approach not only navigated challenges seamlessly
+                      but also ensured the resounding success of the project.
                     </p>
                     <div className="info">
                       <div className="img">
@@ -85,7 +87,7 @@ const VideoWithTestimonials = () => {
                       </div>
                       <div className="cont">
                         <div className="author">
-                          <h6 className="author-name ">Alex Regelman</h6>
+                          <h6 className="author-name ">William Kane</h6>
                           <span className="author-details">
                             Co-founder, Colabrio
                           </span>
@@ -95,9 +97,11 @@ const VideoWithTestimonials = () => {
                   </div>
                   <div className="item">
                     <p>
-                      Nulla metus metus ullamcorper vel tincidunt sed euismod
-                      nibh volutpat velit class aptent taciti sociosqu ad
-                      litora.
+                      Partnering with a dynamic collective of technical
+                      visionaries was a transformative experience. Their
+                      unparalleled expertise, fueled by a shared commitment to
+                      excellence, not only conquered challenges but also
+                      elevated the project to unprecedented heights.
                     </p>
                     <div className="info">
                       <div className="img">
@@ -109,7 +113,7 @@ const VideoWithTestimonials = () => {
                         <div className="author">
                           <h6 className="author-name ">Alex Regelman</h6>
                           <span className="author-details">
-                            Co-founder, Colabrio
+                            Developer, madpizza
                           </span>
                         </div>
                       </div>
@@ -117,9 +121,11 @@ const VideoWithTestimonials = () => {
                   </div>
                   <div className="item">
                     <p>
-                      Nulla metus metus ullamcorper vel tincidunt sed euismod
-                      nibh volutpat velit class aptent taciti sociosqu ad
-                      litora.
+                      Their profound expertise and relentless pursuit of
+                      perfection not only conquered challenges but also sculpted
+                      the project into a masterpiece. This formidable collective
+                      is not just a team; they are trailblazers of innovation
+                      and excellence.
                     </p>
                     <div className="info">
                       <div className="img">
@@ -129,10 +135,8 @@ const VideoWithTestimonials = () => {
                       </div>
                       <div className="cont">
                         <div className="author">
-                          <h6 className="author-name ">Alex Regelman</h6>
-                          <span className="author-details">
-                            Co-founder, Colabrio
-                          </span>
+                          <h6 className="author-name "></h6>
+                          <span className="author-details">CE0, Buuku</span>
                         </div>
                       </div>
                     </div>
