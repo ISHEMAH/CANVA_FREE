@@ -1,14 +1,21 @@
 import React from "react";
-import blog3Data from "../../data/blog3.json";
 import DarkTheme from "../../layouts/Dark";
 import Navbar from "../../components/Navbar/navbar";
 import BlogDetails from "../../components/Blog-details/blog-details";
 import PageHeader from "../../components/Page-header/page-header";
 import Footer from "../../components/Footer/footer";
+import { useRouter } from "next/dist/client/router";
+import blogs from "../../data/blog1.json";
 
 const BlogDetailsDark = () => {
   const navbarRef = React.useRef(null);
   const logoRef = React.useRef(null);
+  const router = useRouter();
+  const { id } = router.query;
+
+  const selectedBlog = blogs.find((blog) => blog.id === parseInt(id, 10));
+
+  console.log(selectedBlog);
 
   React.useEffect(() => {
     var navbar = navbarRef.current,
@@ -26,6 +33,12 @@ const BlogDetailsDark = () => {
       }
     });
   }, [navbarRef]);
+
+  React.useEffect(() => {
+    if (!id || !selectedBlog) {
+      router.push("/blog/blog-dark");
+    }
+  }, [id, router, selectedBlog]);
   return (
     <DarkTheme>
       <div className="circle-bg">
@@ -39,8 +52,8 @@ const BlogDetailsDark = () => {
         title="Blog Details."
         paragraph="All the most current news and events of our creative team."
       />
-          <BlogDetails blog={"blog"} />
-          <Footer />
+      <BlogDetails blogData={selectedBlog || blogs[1]} />
+      <Footer />
     </DarkTheme>
   );
 };

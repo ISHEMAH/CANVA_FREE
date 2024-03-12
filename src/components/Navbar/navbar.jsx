@@ -55,7 +55,7 @@ const Navbar = ({ lr, nr, theme }) => {
               </Link>
             </li>
             <li className="nav-item">
-              <Link href={`/showcase/showcase-dark`}>
+              <Link href={`/works2/works2-dark`}>
                 <a className="nav-link">Works</a>
               </Link>
             </li>

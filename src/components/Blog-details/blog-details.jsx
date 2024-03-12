@@ -24,23 +24,15 @@ const BlogDetails = ({ theme, blogData }) => {
           <div className="col-lg-11">
             <div className="post">
               <div className="img">
-                <img src="/img/blog/single.jpg" alt="" />
+                <img src={blogData.image} alt="Cover image" />
               </div>
               <div className="content pt-60">
                 <div className="row justify-content-center">
                   <div className="col-lg-10">
                     <div className="cont">
-                      <h4 className="extra-title">
-                        Priorities that will pop up in any particular month.
-                      </h4>
+                      <h4 className="extra-title">{blogData.title}</h4>
                       <div className="spacial">
-                        <p>
-                          Never ever think of giving up. Winners never quit and
-                          quitters never win. Take all negative words out of
-                          your mental dictionary and focus on the solutions with
-                          utmost conviction and patience. The battle is never
-                          lost until you’ve abandon your vision.
-                        </p>
+                        <p>{blogData.content}</p>
                       </div>
                       <p>
                         the main component of a healthy environment for self
@@ -97,12 +89,12 @@ const BlogDetails = ({ theme, blogData }) => {
                       <div className="row">
                         <div className="col-md-6">
                           <div className="mb-10">
-                            <img src="/img/blog/2.jpg" alt="" />
+                            <img src={blogData.images.img1} alt="" />
                           </div>
                         </div>
                         <div className="col-md-6">
                           <div className="mb-10">
-                            <img src="/img/blog/3.jpg" alt="" />
+                            <img src={blogData.images.img2} alt="" />
                           </div>
                         </div>
                       </div>
@@ -135,11 +127,11 @@ const BlogDetails = ({ theme, blogData }) => {
                     </div>
                     <div className="author">
                       <div className="author-img">
-                        <img src="/img/blog/01.jpg" alt="" />
+                        <img src={blogData.author.image} alt="" />
                       </div>
                       <div className="info">
                         <h6>
-                          <span>author :</span> Jorden Griffin
+                          <span>author :</span> {blogData.author.name}
                         </h6>
                         <p>
                           the main component of a healthy environment for self
