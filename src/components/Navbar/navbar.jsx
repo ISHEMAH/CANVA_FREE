@@ -50,22 +50,22 @@ const Navbar = ({ lr, nr, theme }) => {
               </Link>
             </li>
             <li className="nav-item">
-              <Link href={`/about/about-dark`}>
+              <Link href={`/about`}>
                 <a className="nav-link">About</a>
               </Link>
             </li>
             <li className="nav-item">
-              <Link href={`/works2/works2-dark`}>
+              <Link href={`/works`}>
                 <a className="nav-link">Works</a>
               </Link>
             </li>
             <li className="nav-item">
-              <Link href={`/blog/blog-dark`}>
+              <Link href={`/blog/`}>
                 <a className="nav-link">Blogs</a>
               </Link>
             </li>
             <li className="nav-item">
-              <Link href={`/contact/contact-dark`}>
+              <Link href={`/contact`}>
                 <a className="nav-link">Contact</a>
               </Link>
             </li>
