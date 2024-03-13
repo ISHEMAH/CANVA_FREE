@@ -181,11 +181,14 @@ const BlogDetails = ({ theme, blogData }) => {
                 <h5>Comments :</h5>
                 <div className="item">
                   <div className="comment-img">
-                    <img src="/img/blog/01.jpg" alt="" />
+                    <img
+                      src="https://aap.cornell.edu/sites/default/files/styles/portrait-medium/public/person/Sara%20300x300.png?itok=VJAQIDQI"
+                      alt=""
+                    />
                   </div>
                   <div className="info">
                     <h6>
-                      Jorden Griffin - <span> 6 Aug 2022</span>
+                      Jane Smith - <span> 6 Aug 2022</span>
                     </h6>
                     <span className="replay">
                       <ScrollLink
@@ -207,7 +210,10 @@ const BlogDetails = ({ theme, blogData }) => {
                 </div>
                 <div className="item relped">
                   <div className="comment-img">
-                    <img src="/img/blog/01.jpg" alt="" />
+                    <img
+                      src="https://upload.wikimedia.org/wikipedia/commons/f/f0/KE_Upward_Spiral_headshot_%28300x300%29.png?20160828053359"
+                      alt=""
+                    />
                   </div>
                   <div className="info">
                     <h6>
@@ -233,11 +239,14 @@ const BlogDetails = ({ theme, blogData }) => {
                 </div>
                 <div className="item">
                   <div className="comment-img">
-                    <img src="/img/blog/01.jpg" alt="" />
+                    <img
+                      src="https://www.nndkp.ro/wp-content/uploads/2022/03/Mihai-Serbu-400x400.jpg"
+                      alt=""
+                    />
                   </div>
                   <div className="info">
                     <h6>
-                      Jorden Griffin - <span> 6 Aug 2022</span>
+                      Kendrick Smith - <span> 6 Aug 2022</span>
                     </h6>
                     <span className="replay">
                       <ScrollLink
