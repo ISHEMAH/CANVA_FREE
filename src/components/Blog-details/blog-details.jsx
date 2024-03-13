@@ -157,17 +157,23 @@ const BlogDetails = ({ theme, blogData }) => {
 
               <div className="pagination">
                 <span>
-                  <a href="#0">Prev Post</a>
+                  <a
+                    href={`/blog-details/?id=${
+                      blogData.id == 1 ? 1 : blogData.id - 1
+                    }`}
+                  >
+                    Prev Post
+                  </a>
                 </span>
                 <span className="icon">
-                  <Link href={`/blog/blog-dark`}>
+                  <Link href={`/blog`}>
                     <a>
                       <i className="fas fa-th-large"></i>
                     </a>
                   </Link>
                 </span>
                 <span className="text-right">
-                  <a href="#0">Next Post</a>
+                  <a href={`/blog-details/?id=${blogData.id + 1}`}>Next Post</a>
                 </span>
               </div>
 

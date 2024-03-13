@@ -33,11 +33,11 @@ const BlogDetailsDark = () => {
     });
   }, [navbarRef]);
 
-  React.useEffect(() => {
-    if (!id || !selectedBlog) {
-      router.push("/blog/blog-dark");
-    }
-  }, [id, router, selectedBlog]);
+  // React.useEffect(() => {
+  //   if (!id || !selectedBlog) {
+  //     router.push("/blog");
+  //   }
+  // }, [id, router, selectedBlog]);
   return (
     <DarkTheme>
       <div className="circle-bg">
@@ -51,7 +51,7 @@ const BlogDetailsDark = () => {
         title="Blog Details."
         paragraph="All the most current news and events of our creative team."
       />
-      <BlogDetails blogData={selectedBlog || blogs[1]} />
+      <BlogDetails blogData={selectedBlog || blogs[0]} />
       <Footer />
     </DarkTheme>
   );
