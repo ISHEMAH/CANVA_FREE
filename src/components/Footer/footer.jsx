@@ -48,20 +48,20 @@ const Footer = ({ hideBGCOLOR }) => {
                 {blogData.slice(0, 2).map((item, index) => (
                   <li key={item.id}>
                     <div className="img">
-                      <Link href="/blog-details/blog-details-dark">
+                      <Link href={`/blog-details?id=${item.id}`}>
                         <a>
                           <img src={item.image} alt={`blog ${item.id}`} />
                         </a>
                       </Link>
                     </div>
                     <div className="sm-post">
-                      <Link href="/blog-details/blog-details-dark">
+                      <Link href={`/blog-details?id=${item.id}`}>
                         <a>
                           <p>{item.title}</p>
                         </a>
                       </Link>
                       <div>
-                        <Link href="/blog/blog-dark">
+                        <Link href={`/blog-details?id=${item.id}`}>
                           <a>
                             <span className="date">
                               {item.date.day} {item.date.month} {item.date.year}{" "}

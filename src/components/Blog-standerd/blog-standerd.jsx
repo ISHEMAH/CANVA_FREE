@@ -36,9 +36,7 @@ const BlogStanderd = ({ blogs }) => {
                         </div>
                         <h4 className="title">{blogItem.title}</h4>
                         <p>{blogItem.content}</p>
-                        <Link
-                          href={`/blog-details?id=${blogItem.id}`}
-                        >
+                        <Link href={`/blog-details?id=${blogItem.id}`}>
                           <a className="butn bord curve mt-30">Read More</a>
                         </Link>
                       </div>
@@ -46,7 +44,7 @@ const BlogStanderd = ({ blogs }) => {
                   </div>
                 </div>
               ))}
-              <div className="pagination">
+              {/* <div className="pagination">
                 <span className="active">
                   <Link href={`/blog`}>1</Link>
                 </span>
@@ -60,7 +58,7 @@ const BlogStanderd = ({ blogs }) => {
                     </a>
                   </Link>
                 </span>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
