@@ -188,7 +188,7 @@ const BlogDetails = ({ theme, blogData }) => {
                   </div>
                   <div className="info">
                     <h6>
-                      Jane Smith - <span> 6 Aug 2022</span>
+                      Beatrice Jane - <span> 6 Aug 2022</span>
                     </h6>
                     <span className="replay">
                       <ScrollLink
