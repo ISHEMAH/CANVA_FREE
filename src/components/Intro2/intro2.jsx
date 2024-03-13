@@ -1,6 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
-import React from 'react'
-import Link from 'next/link'
+import React from "react";
+import Link from "next/link";
 
 const Intro2 = ({ sliderRef }) => {
   return (
@@ -12,14 +12,15 @@ const Intro2 = ({ sliderRef }) => {
               <div className="sub-title mb-5">
                 <h6>IT Consulting Agency</h6>
               </div>
-              <h1 className="mb-10 fw-600"><span className='color-font'>Cybector</span> , Unique Dev Agency.</h1>
+              <h1 className="mb-10 fw-600">
+                <span className="color-font">Cybector</span> , Unique Dev
+                Agency.
+              </h1>
               <p>
                 We help our clients succeed by creating brand identities,
                 digital experiences, and print materials.
               </p>
-              <Link
-                href={`/about/about-dark`}
-              >
+              <Link href={`/about`}>
                 <a className="butn bord curve mt-30">
                   <span>About Us</span>
                 </a>
@@ -38,4 +39,4 @@ const Intro2 = ({ sliderRef }) => {
   );
 };
 
-export default Intro2
+export default Intro2;
