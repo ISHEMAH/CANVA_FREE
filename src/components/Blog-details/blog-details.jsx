@@ -188,7 +188,7 @@ const BlogDetails = ({ theme, blogData }) => {
                   </div>
                   <div className="info">
                     <h6>
-                      Beatrice Jane - <span> 6 Aug 2022</span>
+                      Beatrice Jane - <span> 6 March 2024</span>
                     </h6>
                     <span className="replay">
                       <ScrollLink
@@ -217,7 +217,7 @@ const BlogDetails = ({ theme, blogData }) => {
                   </div>
                   <div className="info">
                     <h6>
-                      Jorden Griffin - <span> 6 Aug 2022</span>
+                      Jorden Griffin - <span> 6 Aug 2023</span>
                     </h6>
                     <span className="replay">
                       <ScrollLink
@@ -246,7 +246,7 @@ const BlogDetails = ({ theme, blogData }) => {
                   </div>
                   <div className="info">
                     <h6>
-                      Kendrick Smith - <span> 6 Aug 2022</span>
+                      Kendrick Smith - <span> 12 Dec 2023</span>
                     </h6>
                     <span className="replay">
                       <ScrollLink
