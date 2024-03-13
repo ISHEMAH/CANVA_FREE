@@ -66,7 +66,7 @@ const WorksStyle2 = ({ grid, hideFilter, filterPosition }) => {
               data-wow-delay=".4s"
             >
               <div className="item-img">
-                <Link href={`/project-details2/project-details2-dark/?id=${1}`}>
+                <Link href={`/project-details/?id=${1}`}>
                   <a className="imago wow">
                     <img src="/img/portfolio/works/w1.jpeg" alt="image" />
                     <div className="item-img-overlay"></div>
@@ -76,8 +76,8 @@ const WorksStyle2 = ({ grid, hideFilter, filterPosition }) => {
               <div className="cont">
                 <h6>Creativity Demand</h6>
                 <span>
-                  <Link href="/works3/works3-dark">Design</Link>,
-                  <Link href="/works3/works3-dark">WordPress</Link>
+                  <a>Design</a>
+                  <a>WordPress</a>
                 </span>
               </div>
             </div>
@@ -93,7 +93,7 @@ const WorksStyle2 = ({ grid, hideFilter, filterPosition }) => {
               data-wow-delay=".4s"
             >
               <div className="item-img">
-                <Link href={`/project-details2/project-details2-dark/?id=${2}`}>
+                <Link href={`/project-details?id=${2}`}>
                   <a className="imago wow">
                     <img src="/img/portfolio/works/w2.jpeg" alt="image" />
                     <div className="item-img-overlay"></div>
@@ -103,8 +103,8 @@ const WorksStyle2 = ({ grid, hideFilter, filterPosition }) => {
               <div className="cont">
                 <h6>Through The Breaking</h6>
                 <span>
-                  <Link href="/works3/works3-dark">Design</Link>,
-                  <Link href="/works3/works3-dark">WordPress</Link>
+                  <a>Design</a>
+                  <a>Mobile</a>
                 </span>
               </div>
             </div>
@@ -120,7 +120,7 @@ const WorksStyle2 = ({ grid, hideFilter, filterPosition }) => {
               data-wow-delay=".4s"
             >
               <div className="item-img">
-                <Link href={`/project-details2/project-details2-dark/?id=${3}`}>
+                <Link href={`/project-details?id=${3}`}>
                   <a className="imago wow">
                     <img src="/img/portfolio/works/w4.jpeg" alt="image" />
                     <div className="item-img-overlay"></div>
@@ -130,8 +130,8 @@ const WorksStyle2 = ({ grid, hideFilter, filterPosition }) => {
               <div className="cont">
                 <h6>Create With Creatives</h6>
                 <span>
-                  <Link href="/works3/works3-dark">Design</Link>,
-                  <Link href="/works3/works3-dark">WordPress</Link>
+                  <a>Design</a>
+                  <a>WordPress</a>
                 </span>
               </div>
             </div>
@@ -147,7 +147,7 @@ const WorksStyle2 = ({ grid, hideFilter, filterPosition }) => {
               data-wow-delay=".4s"
             >
               <div className="item-img">
-                <Link href={`/project-details2/project-details2-dark/?id=${4}`}>
+                <Link href={`/project-details?id=${4}`}>
                   <a className="imago wow">
                     <img src="/img/portfolio/works/w5.jpeg" alt="image" />
                     <div className="item-img-overlay"></div>
@@ -157,8 +157,8 @@ const WorksStyle2 = ({ grid, hideFilter, filterPosition }) => {
               <div className="cont">
                 <h6>Energies of Love</h6>
                 <span>
-                  <Link href="/works3/works3-dark">Design</Link>,
-                  <Link href="/works3/works3-dark">WordPress</Link>
+                  <a>Design</a>
+                  <a>WordPress</a>
                 </span>
               </div>
             </div>
@@ -174,7 +174,7 @@ const WorksStyle2 = ({ grid, hideFilter, filterPosition }) => {
               data-wow-delay=".4s"
             >
               <div className="item-img">
-                <Link href={`/project-details2/project-details2-dark/?id=${5}`}>
+                <Link href={`/project-details?id=${5}`}>
                   <a className="imago wow">
                     <img src="/img/portfolio/works/w6.jpeg" alt="image" />
                     <div className="item-img-overlay"></div>
@@ -184,8 +184,8 @@ const WorksStyle2 = ({ grid, hideFilter, filterPosition }) => {
               <div className="cont">
                 <h6>See It Yourself</h6>
                 <span>
-                  <Link href="/works3/works3-dark">Design</Link>,
-                  <Link href="/works3/works3-dark">WordPress</Link>
+                  <a>Mobile</a>
+                  <a>Ionic</a>
                 </span>
               </div>
             </div>
@@ -201,7 +201,7 @@ const WorksStyle2 = ({ grid, hideFilter, filterPosition }) => {
               data-wow-delay=".4s"
             >
               <div className="item-img">
-                <Link href={`/project-details2/project-details2-dark/?id=${6}`}>
+                <Link href={`/project-details?id=${6}`}>
                   <a className="imago wow">
                     <img src="/img/portfolio/works/w3.jpeg" alt="image" />
                     <div className="item-img-overlay"></div>
@@ -211,8 +211,8 @@ const WorksStyle2 = ({ grid, hideFilter, filterPosition }) => {
               <div className="cont">
                 <h6>Blast From The Past</h6>
                 <span>
-                  <Link href="/works3/works3-dark">Design</Link>,
-                  <Link href="/works3/works3-dark">WordPress</Link>
+                  <a>Design</a>
+                  <a>WordPress</a>
                 </span>
               </div>
             </div>

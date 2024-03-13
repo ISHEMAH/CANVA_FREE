@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import React from "react";
 import Link from "next/link";
 
@@ -6,18 +7,16 @@ const ProjectCard = ({ grid, data }) => {
 
   return (
     <div
-      className={`${
-        grid === 3
+      className={`${grid === 3
           ? "col-lg-4 col-md-6"
           : grid === 2
-          ? "col-md-6"
-          : "col-12"
-      } items ${categories.join(" ")} wow fadeInUp`}
+            ? "col-md-6"
+            : "col-12"
+        } items ${categories.join(" ")} wow fadeInUp`}
       data-wow-delay=".4s"
     >
       <div className="item-img">
-        <Link href={`/project-details2/project-details2-dark?id=${id}`}>
-          {/* Include the project ID as a query parameter */}
+        <Link href={`/project-details?id=${id}`}>
           <a className="imago wow">
             <img src={imageUrl} alt="image" />
             <div className="item-img-overlay"></div>

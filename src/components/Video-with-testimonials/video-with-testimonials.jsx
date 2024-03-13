@@ -135,8 +135,8 @@ const VideoWithTestimonials = () => {
                       </div>
                       <div className="cont">
                         <div className="author">
-                          <h6 className="author-name "></h6>
-                          <span className="author-details">CE0, Buuku</span>
+                          <h6 className="author-name ">Kobbie Morgan</h6>
+                          <span className="author-details">Developer, Pioneeer</span>
                         </div>
                       </div>
                     </div>
